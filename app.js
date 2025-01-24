@@ -18,10 +18,7 @@ function agregarAmigo(){
         limpiarCaja();
     } 
 }
-//Función que permite limpiar el cuadro de texto, cada vez que añada un nuevo nombre a la lista.
-function limpiarCaja(){
-    document.getElementById('amigo').value = '';
-}
+
 //Función que permite mostrar los nombres conforme se van agregando
 function mostrarNombres(listaAmigos){
 
@@ -47,7 +44,17 @@ function sortearAmigo(){
     }else{
         let elementoHTML = document.getElementById('listaAmigos');
         elementoHTML.innerHTML = "";
-        return(elementoAmigoHTML.innerHTML = (`El amigo secreto sorteado es: ${amigos[amigoSecreto]}`));      
+        elementoAmigoHTML.innerHTML = (`El amigo secreto sorteado es: ${amigos[amigoSecreto]}`);  
+        //limpiarLista();    
     }
 }
+//Función que permite limpiar el cuadro de texto, cada vez que añada un nuevo nombre a la lista.
 
+function limpiarCaja(){
+    document.getElementById('amigo').value = '';
+}
+//Función que permite limpiar la lista de amigos cuando la persona ya sorteo
+/*function limpiarLista(){
+    document.getElementById('listaAmigos').value = '';
+    amigos = [];
+}*/
