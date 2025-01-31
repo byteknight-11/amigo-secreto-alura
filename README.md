@@ -1,7 +1,7 @@
 # Juego de Amigo Secreto 🎉
-https://byteknight-11.github.io/amigo-secreto-alura/
-Este es un juego sencillo de Amigo Secreto desarrollado para agregar nombres a una lista y sortear un amigo secreto de forma aleatoria.
 
+Este es un juego sencillo de Amigo Secreto desarrollado para agregar nombres a una lista y sortear un amigo secreto de forma aleatoria.
+Enlace pagina: https://byteknight-11.github.io/amigo-secreto-alura/
 ## Funcionalidades 🛠️
 
 1. **Cuadro de texto para ingresar nombres**: Permite escribir el nombre de los amigos que participarán en el sorteo.
